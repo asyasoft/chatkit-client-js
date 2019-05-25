@@ -1,8 +1,8 @@
 {
-  "name": "@pusher/chatkit-client",
+  "name": "asyasoft-chatkit-client",
   "description": "Pusher Chatkit client SDK for browsers and react native",
   "main": "dist/web/chatkit.js",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Pusher",
   "license": "MIT",
   "homepage": "https://github.com/pusher/chatkit-client-js",
@@ -41,7 +41,8 @@
     "snazzy": "^7.0.0",
     "tap-colorize": "^1.2.0",
     "tape": "^4.8.0",
-    "tape-run": "^4.0.0"
+    "tape-run": "^4.0.0",
+    "yarn": "^1.16.0"
   },
   "scripts": {
     "lint": "eslint src tests rollup",
@@ -56,7 +57,7 @@
     "lint:build:test": "yarn lint:build && clear && yarn test",
     "lint:test:unit": "yarn lint && clear && yarn test:unit",
     "publish-please": "publish-please",
-    "prepublishOnly": "publish-please guard"
+    "//prepublishOnly": "publish-please guard"
   },
   "prettier": {
     "semi": false,
